@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "751182754578",
+    "firebase_url": "https://gatherx-362.firebaseio.com",
+    "project_id": "gatherx-362",
+    "storage_bucket": "gatherx-362.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751182754578:android:87ffe8622a2882fa6a79cb",
+        "android_client_info": {
+          "package_name": "com.trendster.gatherx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751182754578-ihbiuf0erf4pn76ll71hii9nv6a3dtj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trendster.gatherx",
+            "certificate_hash": "13d4b6745297d73cb6880083efdb6bf07bf14de7"
+          }
+        },
+        {
+          "client_id": "751182754578-r73lp3aesq86809sem8p9rklbgdq8h7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNdzwfe28SDfDmMSvQRVdgDx9rh7prW7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751182754578-r73lp3aesq86809sem8p9rklbgdq8h7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

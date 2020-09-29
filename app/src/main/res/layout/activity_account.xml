@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/profile_clipart1"
+        />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:gravity="center"
+        android:layout_below="@id/imgProfile"
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:gravity="center"
+        android:layout_below="@id/txtEmail"
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:gravity="center"
+        android:layout_below="@id/txtID"
+        android:layout_margin="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logout_background"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:text="LogOut"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="50dp"
+        />
+
+
+</RelativeLayout>

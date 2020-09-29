@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GatherX</string>
+    <string name="facebook_app_id">764303241074900</string>
+    <string name="fb_login_protocol_scheme">fb764303241074900</string>
+
+    <string name="twitter_consumer_key" translatable="false"> XXXXXXXXXXX </string>
+    <string name="twitter_consumer_secret" translatable="false"> XXXXXXXXXXX </string>
+
+</resources>

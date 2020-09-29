@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoogleActivity">
+
+    <ImageView
+        android:id="@+id/imgSocialMedia"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:src="@drawable/social_media"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/btnFBLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_background"
+        android:layout_below="@id/imgSocialMedia"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:text="Login With Facebook"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        />
+
+        <Button
+            android:id="@+id/btnGoogleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/google_login_background"
+            android:layout_below="@id/btnFBLogin"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:text="Sign in Google"
+            android:textColor="#ffffff"
+            android:layout_marginTop="13dp"
+            android:textSize="15sp"
+            />
+
+    <Button
+        android:id="@+id/btnTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/twitter_login_background"
+        android:layout_below="@id/btnGoogleLogin"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:text="Sign in Twitter"
+        android:textColor="#ffffff"
+        android:layout_marginTop="13dp"
+        android:textSize="15sp"
+        />
+
+<!--    <com.google.android.gms.common.SignInButton-->
+<!--        android:id="@+id/btnGoogleLogin"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/btnFBLogin"-->
+<!--        android:layout_marginLeft="13dp"-->
+<!--        android:layout_marginRight="13dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        />-->
+
+    <TextView
+        android:id="@+id/textAgreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnTwitter"
+        android:text="By Clicking on Login , you are accepting our terms and condition"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="13dp"
+        android:textAlignment="center"
+
+        />
+
+</RelativeLayout>
